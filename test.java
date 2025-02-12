@@ -4,5 +4,7 @@ public class Test {
         int b = 2;
         int c = a + b;
         System.out.println(c);
+        c = a + b - 2/3;
+        System.out.println(c);
     }
 }
